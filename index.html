@@ -5,9 +5,22 @@
     <title>pikogoro.github.io</title>
 </head>
 <body>
-    <h1>ShooterGame</h1>
+    <h1>ShooterGame Cusomized Version</h1>
 
-    <h2>Download</h2>
+    <h2>License Notes</h2>
+
+    ShooterGame is the property of Epic Games, Inc. and is distributed under the Unreal Engine EULA:
+    <ul>
+        <li><a href="https://dev.epicgames.com/documentation/unreal-engine/shooter-game?application_version=4.27">
+            https://dev.epicgames.com/documentation/unreal-engine/shooter-game?application_version=4.27</a></li>
+        <li><a href="https://www.unrealengine.com/eula/unreal">
+            https://www.unrealengine.com/eula/unreal</a>"</li>
+    </ul>
+
+    Since the EULA prohibits the redistribution of assets, 
+    please get the ShooterGame assets from the Fab.com page and overwrite them with the diff zip files downloaded from this page.
+
+    <h2>Download (diff zip files)</h2>
     <ul>
         <li>
             <a href="files/ShooterGame-v0.1.0-diff.zip" download>ShooterGame customized version v0.1.0 (diff zip file)</a>
@@ -19,17 +32,21 @@
     <ol>
         <li>Download the "ShooterGame" project from the "Epic Games Launcher" and deploy it to your PC.</li>
 
-        <li>Download one of the "ShooterGame Customized Version" differential zip files listed above.</li>
+        <li>Download one of the "ShooterGame Customized Version" diff zip files listed above.</li>
 
-        <li>Unzip the file and overwrite the "ShooterGame" project folder with the extracted files.</li>
+        <li>Overwrite the "ShooterGame" project folder with files in the downloaded diff zip file.</li>
+
+        <p><img src="img/01_overwrite.png" width="400" alt=""></p>
+
+        <li>Right-click with Shift to open the menu, and select "Generate Visual Studio project files".</li>
+
+        <p><img src="img/02_generate_vs_project.png" width="400" alt=""></p>
 
         <li>Build the "ShooterGame" project.</li>
 
-        <li>If the build fails, delete the "ShooterGame.automation" project from "Solution Explorer" and try building again.</li>
+        <li>If the build fails, delete the "ShooterGame.automation" project file from "Solution Explorer" and try build again.</li>
 
-        <li>If the build is successful, right-click the "ShooterGame" project on "Solution Explorer" to open the menu and select "Set as Startup Project."</li>
-
-        <li>To open PIE (Play In Editor), run "Local Windows Debugger" or "Start Without Debugging".</li>
+        <p><img src="img/03_delete_automation.png" width="400" alt=""></p>
     </ol>
 </body>
 </html>

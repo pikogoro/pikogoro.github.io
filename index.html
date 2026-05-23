@@ -7,17 +7,95 @@
 <body>
     <h1>ShooterGame Cusomized Version</h1>
 
+    <h2>Overviews</h2>
+
+    Regarding the project structure, the CrossplayShooter plugin was added as core module and integrated into ShooterGame.
+    The CrossplayShooter plugin provides basic functionality for crossplay, including FPS and TPS and its features are planned to be expanded in the future.
+
+    <h2>Features</h2>
+
+    The following features have been added or modified to ShooterGame:
+
+    <table border="1">
+        <tr>
+            <th>Feature</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>GAS-based Architecture</td>
+            <td>Migrated the entire ShootGame to the Gameplay Ability System (GAS) based.</td>
+        </tr>
+        <tr>
+            <td>Player Perspective Switching</td>
+            <td>Switching FPS/TPS player perspectives. Toggle with the "T" key.</td>
+        </tr>
+        <tr>
+            <td>Lag Compensation</td>
+            <td>
+                Instant Weapon: Confirm hit result on client by on server. Can show character's pose and impact point at the moment of hit on server to client side for debug.<br>
+                Projectile weapon: Synchonize launched projectile location on client and server.
+            </td>
+        </tr>
+        <tr>
+            <td>Interaction with Other Actors</td>
+            <td>Interacting with actors on level (like doors, control points, etc.).</td>
+        </tr>
+        <tr>
+            <td>Damage Text Popup</td>
+            <td>Can display damage text when the opponent takes damage.</td>
+        </tr>
+    </table>
+
+    <h2>Screen Samples</h2>
+
+    <table>
+        <tr>
+            <td>
+                <figure>
+                    <img src="img/screen1.jpg" alt="" width="400">
+                    <figcaption>FPS view</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="img/screen2.jpg" alt="" width="400">
+                    <figcaption>TPS view</figcaption>
+                </figure>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figure>
+                    <img src="img/screen3.jpg" alt="" width="400">
+                    <figcaption>Multiplayer</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="img/screen4.jpg" alt="" width="400">
+                    <figcaption>Lag Compensation</figcaption>
+                </figure>
+            </td>
+        </tr>
+    </table>
+
     <h2>License Notes</h2>
 
     ShooterGame is the property of Epic Games, Inc. and is distributed under the Unreal Engine EULA:
     <ul>
-        <li><a href="https://dev.epicgames.com/documentation/unreal-engine/shooter-game?application_version=4.27">
-            https://dev.epicgames.com/documentation/unreal-engine/shooter-game?application_version=4.27</a></li>
-        <li><a href="https://www.unrealengine.com/eula/unreal">
-            https://www.unrealengine.com/eula/unreal</a>"</li>
+        <li>
+            <a href="https://dev.epicgames.com/documentation/unreal-engine/shooter-game?application_version=4.27">
+                https://dev.epicgames.com/documentation/unreal-engine/shooter-game?application_version=4.27
+            </a>
+        </li>
+        <li>
+            <a href="https://www.unrealengine.com/eula/unreal">
+                https://www.unrealengine.com/eula/unreal
+            </a>"
+        </li>
     </ul>
 
-    Since the EULA prohibits the redistribution of assets, 
+    Since the EULA prohibits the redistribution of assets,
     please get the ShooterGame assets from the Fab.com page and overwrite them with the diff zip files downloaded from this page.
 
     <h2>Download (diff zip files)</h2>

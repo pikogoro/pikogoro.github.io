@@ -22,11 +22,11 @@ The following architectures and features have been added or modified to ShooterG
 
 |Title	|Image/Video|
 |---		|---|
-|FPS view   |![](img/screen1.jpg)|
-|TPS view   |![](img/screen2.jpg)|
-|Multiplayer   |![](img/screen3.jpg)|
-|Lag Compensation   |![](img/screen4.jpg)|
-|VR Feature   |![](video/video1.mp4)|
+|FPS view   |<img src="img/screen1.jpg" width="640" alt="">|
+|TPS view   |<img src="img/screen2.jpg" width="640" alt="">|
+|Multiplayer   |<img src="img/screen3.jpg" width="640" alt="">|
+|Lag Compensation   |<img src="img/screen4.jpg" width="640" alt="">|
+|VR Feature   |<video src="video/video1.mp4" controls="true" width="640"></video>|
 
 ## License Notes
 
@@ -61,9 +61,9 @@ please get the ShooterGame assets from the Fab.com page and overwrite them with 
 1. Download the "ShooterGame" project from the "Epic Games Launcher" and deploy it to your PC.
 2. Download one of the "ShooterGame Customized Version" diff zip files listed above.
 3. Overwrite the "ShooterGame" project folder with files in the downloaded diff zip file.
-![](img/01_overwrite.png)
+<img src="img/01_overwrite.png" width="640" alt="">
 4. Right-click with Shift to open the menu, and select "Generate Visual Studio project files".
-![](img/02_generate_vs_project.png)
+<img src="img/02_generate_vs_project.png" width="640" alt="">
 5. Build the "ShooterGame" project.
 6. If the build fails, delete the "ShooterGame.automation" project file from "Solution Explorer" and try build again.
-![](img/03_delete_automation.png)
+<img src="img/03_delete_automation.png" width="640" alt="">

@@ -38,7 +38,7 @@ The following architectures and features have been added or modified to ShooterG
 
 ### VR Feature
 
-<video src="video/video1.mp4" controls="true" width="400"></video>
+<video src="video/video1.mp4" controls="true" width="300"></video>
 
 ## License Notes
 
